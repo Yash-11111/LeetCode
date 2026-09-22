@@ -3,7 +3,7 @@
 // Language: java
 // Link: https://leetcode.com/problems/single-element-in-a-sorted-array/
 // Synced by: LinkCode
-// Date: 8/24/2026, 4:40:17 PM
+// Date: 9/22/2026, 7:56:11 PM
 // ======================================
 
 
