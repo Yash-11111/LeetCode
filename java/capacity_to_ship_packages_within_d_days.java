@@ -3,16 +3,18 @@
 // Language: java
 // Link: https://leetcode.com/problems/capacity-to-ship-packages-within-d-days/
 // Synced by: LinkCode
-// Date: 9/25/2026, 9:35:13 PM
+// Date: 9/25/2026, 9:37:10 PM
 // ======================================
 
 
 class Solution {
     public int shipWithinDays(int[] weights, int days) {
         int max =0;
-        for(int num:weights) if(num>max) max = num;
         int sum =0;
-        for(int num:weights) sum+=num;
+        for(int num:weights) {
+        if(num>max) max = num;
+        sum +=num;
+        }
         int low =max ;
         int high = sum;
 
